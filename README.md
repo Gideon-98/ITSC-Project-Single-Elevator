@@ -16,5 +16,4 @@ Regarding the above "efficient management of requests," no "optimality" is requi
 The minimum requirements to be met at the call service level are as follows: 
 1. the system must track and manage the calls made while the elevator is serving a request; 
 2. the system must be able to handle "on the fly" any calls congruent with a motion in progress (e.g., if the elevator is moving from floor 2 to reach floor 7 and you have a call on floor 5, the logic control will have to detect it and serve it before reaching floor 7, if there are conditions).
-
-The policy adopted for call service should be clearly described in the project documentation.
+3. The policy adopted for call service should be clearly described in the project documentation.
